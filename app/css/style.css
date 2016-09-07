@@ -1,0 +1,28 @@
+header{
+
+}
+nav{
+
+}
+#vistas{
+    position: relative;
+    top: 0;
+}
+#bases{
+    border: 2px solid;
+    border-color: #4caf50;
+}
+/*footer redes sociales*/
+.redes-sociales{
+    font-size: 300%;
+}
+.follow_us i{
+    color: white;
+}
+.follow_us i:hover{
+    color: #ffb300;
+}
+/**********************/
+.nav {
+    transition-duration: 50ms;
+}
