@@ -4,9 +4,13 @@ angular.module('ideaton',
 
 //controladores
     .controller('inicioCtrl', ["$scope", function ($scope) {
-        $scope.select = {
-            value: "Option1",
-            choices: ["mejor votados", "fecha"]
+        $scope.universidades = {
+            value: "universidad 1",
+            choices: ["universidad 1", "universidad 2"]
+        };
+        $scope.carreras = {
+            value: "carrera a",
+            choices: ["carrera a", "carrera b"]
         };
     }])
     .controller('detalleProyectoCtrl', function ($http, $stateParams) {
@@ -44,10 +48,10 @@ angular.module('ideaton',
             })
             .state('registrar-usuario', {
                 url: '/registrar-usuario',
-                templateUrl: 'app/views/registrate.html'
+                templateUrl: 'app/views/registrarse.html'
             })
             .state('detalle-proyecto',{
-                url: '/detalle-proyecto/:ideaID',
+                url: '/detalle-proyecto',
                 templateUrl: 'app/views/detalle-proyecto.html',
                 controller: 'detalleProyectoCtrl'
             });

@@ -1,20 +1,13 @@
-header{
-
-}
-nav{
-
-}
-#vistas{
-    position: relative;
-    top: 0;
-}
-#bases{
+.bases{
     border: 2px solid;
     border-color: #4caf50;
 }
+#guardar{
+    position: center;
+}
 /*footer redes sociales*/
 .redes-sociales{
-    font-size: 300%;
+    font-size: 200%;
 }
 .follow_us i{
     color: white;
@@ -23,6 +16,50 @@ nav{
     color: #ffb300;
 }
 /**********************/
-.nav {
-    transition-duration: 50ms;
+.brand-logo img{
+    width: 150px;
+    margin: 1px;
+}
+/*ventana modal*/
+.modal{
+    width: 70%;
+    max-width: 500px;
+}
+#logo-modal{
+    width: 30%;
+    margin: 1px;
+}
+#logo-nav-bar{
+    width: 90%;
+    margin: 10px;
+}
+/**********************/
+.create-list-login-panel {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+}
+.center, .center-align {
+    text-align: center;
+}
+.create-list-connect-btn a {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0.8rem 0rem;
+    height: auto;
+}
+.button-google {
+    color: white;
+    background: #dd4b39;
+}
+.button-twitter {
+    color: white;
+    background: #00bcf2;
+}
+.button-facebook {
+    color: white;
+    background: #3b5998;
 }
